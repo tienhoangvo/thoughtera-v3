@@ -184,6 +184,7 @@ const StoryForm = ({ story, onSave }: StoryFormProps) => {
           onChange={handleTagsChange}
           clearButtonLabel="Clear selection"
           clearable
+          searchable
         />
         <Textarea
           label="Excerpt"
